@@ -1,0 +1,88 @@
+
+*{
+ 
+ box-sizing: border-box;
+ margin: 0;
+
+}
+.container{
+    padding: 100px 800px;
+    background-color: rgb(56, 56, 56); 
+
+}
+
+.home-header{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    color:white;
+    font-size: 0;
+    margin-bottom: 120px;
+}
+
+.button a{
+    display: inline-block;
+    font-size: 48px;
+    text-decoration: none;
+    padding: 12px 12px;
+    border: 2px transparent solid;
+    border-radius: 12px;
+}
+
+.button a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+.button a:hover {
+    border: 2px solid;
+    border-color: black;
+}
+
+.home-body{
+    border: 2px solid;
+    background-color: rgb(90, 90, 90);
+    border-radius: 24px;
+}
+
+.body-title{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deck-info{
+    display: flex;
+    
+}
+
+.deck-name{
+    padding: 0px 24px;
+}
+
+.deck-info h1{
+    padding: 0px 24px;
+}
+
+.decks{
+    padding: 24px;
+}
+
+.home-alert{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-size: 36px;
+    color:white;
+}
+
+.home-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.home-footer .button a{
+    margin: 1200px 24px 24px 24px;
+    border: 1px solid;
+}
